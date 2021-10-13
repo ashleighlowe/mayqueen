@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome1">
+  <meta name="viewport" content="width=deivce-width, initial-scale=1.0">
+  <title>summersolstice</title>
+  <link rel="stylesheet" href="site.css">
+  <link rel="shortcut icon" type="image/png" href="">
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+ </head>
+ <body>
+
+   <!--<div class="ss-main--image">
+    <img class="ss-main--large" src="./images/large.png">
+    <img class="ss-main--medium" src="./images/medium.png">
+    <img class="ss-main--small" src="./images/small.png">
+  </div> -->
+  <a-scene class="ss-main--image">
+    <a-sky class="ss-main--large" transparent="true" src="./images/large.png" rotation"0 -130 0">
+      <a-animation attribute="rotation" fill="forwards" easing="linear" dur="1" from="0 0 0" to="0 360 0" repeat="indefinite">
+      </a-animation>
+    </a-sky>
+    <a-sky class="ss-main-medium" transparent="true"  src="./images/medium.png" rotation"0 -130 0"></a-sky>
+    <a-sky clas="ss-main-small" transparent="true" src="./images/small.png" rotation"0 -130 0"></a-sky>
+  </a-scene>
+ </body>
+</html>
