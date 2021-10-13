@@ -4,7 +4,7 @@ Body {
 }
 
 img {
-  width:;
+width:100%;
 }
 
 .ss-main--image {
@@ -12,11 +12,12 @@ img {
 }
 
 .ss-main--large {
-  transform: translate();
+transform: translate();
 }
 
+
 .ss-main--medium {
-  transform: translate();
+transform: translate();
 }
 
 .ss-main--small {
