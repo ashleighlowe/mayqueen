@@ -1,0 +1,24 @@
+body{
+  margin: 50px;
+  background-color: white;
+}
+
+.yellow-parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image:
+  url(./assets-yellow/flames-red.png),
+  url(./assets-yellow/flames-orange.png),
+  url(./assets-yellow/flames-gold.png),
+  url(./assets-yellow/flames-green.png),
+  url(./assets-yellow/flames-pink.png),
+  url(./assets-yellow/flames-darkgreen.png),
+  url(./assets-yellow/flames-blue.png),
+  url(./assets-yellow/flames-grey.png),
+  url(./assets-yellow/flames-palepink.png),
+  url(./assets-yellow/flames-brown.png),
+  url(./assets-yellow/yellow-building.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;

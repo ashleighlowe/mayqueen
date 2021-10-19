@@ -1,0 +1,26 @@
+body{
+  margin: 50;
+  background-color: white;
+}
+
+.mayqueen-parallax {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image:
+  url(./assets-mayqueen/flowers-black.png),
+  url(./assets-mayqueen/flowers-darkgreen.png),
+  url(./assets-mayqueen/flowers-green.png),
+  url(./assets-mayqueen/flowers-palepink.png),
+  url(./assets-mayqueen/flowers-gold.png),
+  url(./assets-mayqueen/flowers-orange.png),
+  url(./assets-mayqueen/flowers-red.png),
+  url(./assets-mayqueen/flowers-pink.png),
+  url(./assets-mayqueen/flowers-grey.png),
+  url(./assets-mayqueen/flowers-blue.png),
+  url(./assets-mayqueen/flowers-multi.png),
+  url(./assets-mayqueen/dani.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: 50% 50%;
+}
