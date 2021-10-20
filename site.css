@@ -1,1 +1,69 @@
+body {
+  margin: 50px;
+}
 
+img {
+  width: 100%;
+}
+
+.ss-colour-conatainer {
+  background-color: #fffbeb;
+  padding: 50px;
+  width: 1590px ;
+  height: 800px;
+}
+
+.ss-title-image {
+  position: absolute;
+  width: 40%;
+  left: 30%;
+  top: 25%;
+}
+
+.ss-sun {
+  position: absolute;
+  width: 10%;
+  left: 44%;
+  top: 40%;
+  animation: bounce 4s ease-in-out infinite;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(20); }
+    50%  { transform: translateY(-20px); }
+    100% { transform: translateY(20); }
+}
+
+.ss-text-hyperlinks {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: black;
+}
+
+.ss-text-mayqueen {
+  position: absolute;
+  top: 63%;
+  left: 44.5%;
+}
+
+.ss-text-yellow {
+  position: absolute;
+  top: 68%;
+  left: 41.5%;
+}
+
+.ss-text-runes {
+  position: absolute;
+  top: 73%;
+  left: 42.2%;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}

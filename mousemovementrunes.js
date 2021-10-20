@@ -21,7 +21,15 @@
     let _depth10 = `${50 - (_mouseX - _w) * 0.10}% ${50 - (_mouseY - _h) * 0.10}%`;
     let _depth11 = `${50 - (_mouseX - _w) * 0.11}% ${50 - (_mouseY - _h) * 0.11}%`;
     let _depth12 = `${50 - (_mouseX - _w) * 0.12}% ${50 - (_mouseY - _h) * 0.12}%`;
-    let x = `${_depth12}, ${_depth11}, ${_depth10}, ${_depth9}, ${_depth8}, ${_depth7}, ${_depth6}, ${_depth5}, ${_depth4}, ${_depth3}, ${_depth2}, ${_depth1}`;
+    let _depth13 = `${50 - (_mouseX - _w) * 0.13}% ${50 - (_mouseY - _h) * 0.13}%`;
+    let _depth14 = `${50 - (_mouseX - _w) * 0.14}% ${50 - (_mouseY - _h) * 0.14}%`;
+    let _depth15 = `${50 - (_mouseX - _w) * 0.15}% ${50 - (_mouseY - _h) * 0.15}%`;
+    let _depth16 = `${50 - (_mouseX - _w) * 0.16}% ${50 - (_mouseY - _h) * 0.16}%`;
+    let _depth17 = `${50 - (_mouseX - _w) * 0.17}% ${50 - (_mouseY - _h) * 0.17}%`;
+    let _depth18 = `${50 - (_mouseX - _w) * 0.18}% ${50 - (_mouseY - _h) * 0.18}%`;
+    let _depth19 = `${50 - (_mouseX - _w) * 0.19}% ${50 - (_mouseY - _h) * 0.19}%`;
+    let _depth20 = `${50 - (_mouseX - _w) * 0.20}% ${50 - (_mouseY - _h) * 0.20}%`;
+    let x = `${_depth20}, ${_depth19}, ${_depth18}, ${_depth17}, ${_depth16}, ${_depth15}, ${_depth14}, ${_depth13}, ${_depth12}, ${_depth11}, ${_depth10}, ${_depth9}, ${_depth8}, ${_depth7}, ${_depth6}, ${_depth5}, ${_depth4}, ${_depth3}, ${_depth2}, ${_depth1}`;
     console.log(x);
     elem.style.backgroundPosition = x;
   }
