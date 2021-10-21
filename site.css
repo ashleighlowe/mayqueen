@@ -1,5 +1,5 @@
 body {
-  margin: 50px;
+  margin: 5%;
 }
 
 img {
@@ -8,9 +8,9 @@ img {
 
 .ss-colour-conatainer {
   background-color: #fffbeb;
-  padding: 50px;
-  width: 1590px ;
-  height: 800px;
+  width: 100% ;
+  height: 100vh;
+
 }
 
 .ss-title-image {
@@ -24,7 +24,7 @@ img {
   position: absolute;
   width: 10%;
   left: 44%;
-  top: 40%;
+  top: 50%;
   animation: bounce 4s ease-in-out infinite;
 }
 
@@ -43,20 +43,23 @@ img {
 
 .ss-text-mayqueen {
   position: absolute;
-  top: 63%;
-  left: 44.5%;
+  width: 15%;
+  top: 74%;
+  left: 42%;
 }
 
 .ss-text-yellow {
   position: absolute;
-  top: 68%;
-  left: 41.5%;
+  width: 20%;
+  top: 78%;
+  left: 39.5%;
 }
 
 .ss-text-runes {
   position: absolute;
-  top: 73%;
-  left: 42.2%;
+  width:19%;
+  top: 82%;
+  left: 40%;
 }
 
 a:link {
